@@ -41,6 +41,9 @@ class Maths
     }
 }
 
+
+//Types of variable 
+
 public class object {
     void main (String [] args){
         int num1 = 18;
