@@ -9,8 +9,9 @@ public class foreachloop {
         //Enhanced ForLoop of java
         for(int n : num)
         {
-            System.out.println(n);
+            // System.out.println(n);
         }
+
     }
 }
 
