@@ -6,6 +6,7 @@ public class praticalbuffer {
     void main (String[]args){
         StringBuffer sb = new StringBuffer("amanseczx");
         sb.append(" Richa");
+        sb.insert(0, "java ," );
         sb.reverse();
         System.out.println(sb);
 
