@@ -1,9 +1,17 @@
+
+    //default value for string is Null
+    //default value for Int is 0
+
 class Human
 {
-    private int age;  //private it accessable in the same class
+    private int age; 
     private String Name;
 
-
+    public Human(int age, String Name)  //Constructor
+    {
+        this.age = age;
+        this.Name = Name;
+    }
 
     public String getName (){  //getter
         return Name;
@@ -23,14 +31,14 @@ class Human
 }
 
 
-public class Encapsulation {
-    void main (String [] args){
-        Human obj = new Human();
-        obj.setAge(23);
-        obj.setName("Rahul");
+public class constructor { 
+    public static void main (String []a){
 
-
-        System.out.println(obj.getAge());
+        Human obj = new Human(9, "Rahul");
         System.out.println(obj.getName());
+        System.out.println(obj.getAge());
+
     }
+    
 }
+
