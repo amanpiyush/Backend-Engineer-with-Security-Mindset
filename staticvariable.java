@@ -7,7 +7,7 @@ class Mobile{
     public void show(){
     System.out.println(Brand + " : " + Price + " : " + type );
     }
-
+    //static variable : static variable shared across all the objects in the class.
 }
 public class staticvariable {
     
