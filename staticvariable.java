@@ -29,7 +29,7 @@ public class staticvariable {
 
         Mobile obj3 = new Mobile();
         obj3.Brand = "Huwai";
-        obj3.Price = 6200;
+        obj3.Price = 62000;
         Mobile.type = "Flagship Phone";
         // Mobile.type = "Flagship Phone";
 
